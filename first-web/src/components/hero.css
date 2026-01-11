@@ -1,0 +1,123 @@
+.hero {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* badge */
+.hero-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border: 1px solid #b6b6b6;
+  border-radius: 50px;
+}
+
+.hero-badge-img {
+  width: 70px;
+  height: 24px;
+  background-image: url("../assets/Group 5225.png");
+  background-size: cover;
+}
+
+.hero-badge span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #373737;
+}
+
+/* title */
+.hero-title {
+  margin-top: 24px;
+}
+
+.hero-title h1 {
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.hero-title span {
+  color: #5044e5;
+}
+
+/* description */
+.hero-desc {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #475569;
+  text-align: center;
+}
+
+/* main image */
+.hero-image {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 1100px;
+  height: 600px;
+  background-image: url("../assets/76c8b81e4ef9950400c45323d6398439b10d3bf5.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 45px;
+}
+
+/* trusted text */
+.hero-trust {
+  margin-top: 90px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #475569;
+}
+
+/* logos */
+.partner {
+  margin-top: 10px;
+  display: flex;
+  gap: 48px;
+  align-items: center;
+}
+
+.coinbase {
+  width: 110px;
+  height: 19px;
+  background-image: url("../assets/coin.png");
+  background-size: cover;
+}
+
+.google {
+  width: 79px;
+  height: 26px;
+  background-image: url("../assets/google_logo.svg");
+  background-size: cover;
+}
+
+.rakuten {
+  width: 73px;
+  height: 21px;
+  background-image: url("../assets/raku.png");
+  background-size: cover;
+}
+
+.ms {
+  width: 100px;
+  height: 21px;
+  background-image: url("../assets/ms.png");
+  background-size: cover;
+}
+
+.airbnb {
+  width: 73px;
+  height: 23px;
+  background-image: url("../assets/airbnb_logo.svg");
+  background-size: cover;
+}
+
+.zoom {
+  width: 74px;
+  height: 22px;
+  background-image: url("../assets/zoom_logo.png");
+  background-size: cover;
+}

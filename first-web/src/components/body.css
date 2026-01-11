@@ -1,0 +1,166 @@
+.body {
+  margin-top: 140px;
+}
+
+/* ================= WORK ================= */
+.work {
+  text-align: center;
+}
+
+.work h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.work p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #8a8e9b;
+}
+
+.work-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.work-card {
+  text-align: left;
+}
+
+.work-img {
+  height: 220px;
+  border-radius: 14px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 14px;
+}
+
+.work-img.mobile {
+  background-image: url("../assets/man1.png");
+}
+
+.work-img.dashboard {
+  background-image: url("../assets/man2.png");
+}
+
+.work-img.fitness {
+  background-image: url("../assets/man3.png");
+}
+
+.work-card h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.work-card span {
+  font-size: 14px;
+  color: #8a8e9b;
+}
+
+/* ================= TEAM ================= */
+.team {
+  margin-top: 140px;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.team p {
+  margin-top: 12px;
+  color: #8a8e9b;
+}
+
+.team-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.team-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.team-card img {
+     background-image: url("../assets/11.png");
+     background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.team-card h5 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.team-card span {
+  font-size: 12px;
+  color: #8a8e9b;
+}
+
+/* ================= CONTACT ================= */
+.contact {
+  margin-top: 160px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.contact p {
+  margin-top: 12px;
+  color: #8a8e9b;
+}
+
+.contact-form {
+  margin-top: 50px;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  margin-top: 20px;
+  height: 140px;
+  resize: none;
+}
+
+.contact-form button {
+  margin-top: 24px;
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: none;
+  background: #5044e5;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}

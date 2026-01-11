@@ -1,15 +1,22 @@
-import { useState } from 'react'
-import Navbar from './components/navbar'
-
+import Navbar from "./components/navbar";
+import Hero from "./components/hero";
+import Main from "./components/main";
+import Body from "./components/body";
+import Footer from "./components/footer";
 
 
 function App() {
-  
   return (
     <>
-   <Navbar/>
+      <Navbar />
+      <Hero />
+      <Main/>
+      <Body/>
+      <Footer/>
+
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
