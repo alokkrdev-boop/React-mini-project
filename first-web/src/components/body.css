@@ -31,6 +31,17 @@
   text-align: left;
 }
 
+.work-card {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  will-change: transform;
+}
+
+.work-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+
 .work-img {
   height: 220px;
   border-radius: 14px;
